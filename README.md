@@ -80,6 +80,15 @@ socket.on('click registered', function(data) {
 });
 ```
 
+### Next Steps
+
+Check out [this repo](https://github.com/skiprox/shared-canvas) for an example of drawing, and [this repo](https://github.com/skiprox/palmetto-boyz) for an example of a chat app.
+
+Live examples:
+
+* [Drawing](http://little-slugs.herokuapp.com/)
+* [Chat](http://palmetto-boyz.herokuapp.com/)
+
 
 ### Sources 
 
