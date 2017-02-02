@@ -92,6 +92,12 @@ Live examples:
 
 ### Sources 
 
+[Node JS http reference](https://nodejs.org/api/http.html)
+
+[Express JS](http://expressjs.com/)
+
+[SocketIO](http://socket.io/)
+
 [HTML5 Rocks](https://www.html5rocks.com/en/tutorials/websockets/basics/)
 
 [This Stack Overflow QA](http://stackoverflow.com/questions/10028770/in-what-situations-would-ajax-long-short-polling-be-preferred-over-html5-websock)
