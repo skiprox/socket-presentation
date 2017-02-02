@@ -31,9 +31,9 @@ It's a wrapper for WebSockets, with a fallback for polling when WebSockets aren'
 
 You can clone [this repo](https://github.com/skiprox/websockets-getting-started).
 
-This includes the server side `index.js`, and the client side `public/js/app.js` (with `app.built.js` being the browserify'd version). Here's an overview of what is in each:
+This includes the server side `server.js`, and the client side `public/js/client.js` (with `client.built.js` being the browserify'd version). Here's an overview of what is in each:
 
-* `index.js`
+* `server.js`
 	* Server side code. Runs `express`, uses Node's `http` to create a server, and uses `socket.io` to listen and send events.
 	* Listens and emits events very similarly to `EventEmitter`.
 	* `io` used to listen to and emit events to/from all nodes, and `socket` for one specific socket.
@@ -61,7 +61,7 @@ io.on('connection', function(socket) {
 });
 ```
 
-* `public/js/app.js`
+* `public/js/client.js`
 	* Client side code. Includes `socket.io` on the page, creates a new `socket` by initiating `io`, `var socket = io();`
 	* Because this is one client that is directly communicating with the server, you just need to emit and listen for events with `socket`.
 	
